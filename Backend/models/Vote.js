@@ -24,7 +24,7 @@ const voteSchema = new mongoose.Schema({
     createdAt: {
         type: Date,
         default: Date.now
-    }, 
+    },
     });
 
 const Vote = mongoose.model('Vote', voteSchema);
